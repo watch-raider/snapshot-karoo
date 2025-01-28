@@ -16,20 +16,20 @@ The problem of biodiversity loss is already in an alarming state and only gettin
 Project This project will involve feeding images from the Karoo dataset into a CNN model in order to effectively classify animals pictured in images from the Camera Traps located in the Karoo national park. This will help researchers assess the biodiversity in the Karoo national park and track it over time. If successful, this model can then be used to assess biodiversity of other national parks around the world.
 
 # Major Tasks
-## Data Selection, Loading
+### Data Selection, Loading
 The dataset contains images totaling 42GB which is too large to manage. The dataset has provided ways of only downloading only certian folders. The folders correspond to which Camera Trap the image was taken by. Therefore, a team member is needed to select how much and which parts of the dataset should be used for the project.
 Next task is to load the dataset using Python, including the images and the annotations, so that it can be passed into the model. 
 Images are available via Azure Blob Storage or Google Cloud Storage
-## Visualisation
+### Visualisation
 Some visualisation will then need to be performed in order to understand the dataset that has been selected.
 This may include visualising how many images there are of each species and what kind of imagery each Camera Trap has taken.
-## Data Cleaning
+### Data Cleaning
 After understanding the dataset better, some data cleaning will be required in order to balance it better. 
 For example, most of the images from these camera traps are empty so elimination of some empty images might be required in order to have a more balanced dataset.
 Outliers might also have to be removed such as certain species who have very few images available.
-## Build, Train, and Test SVM Classifier Model
+### Build, Train, and Test SVM Classifier Model
 Next step is to build SVM model to perform the Classification task
-## Analyse and Visualise Results
+### Analyse and Visualise Results
 Final step is to assess the accuracy of the model and visualise its performance. 
 
 # Results
